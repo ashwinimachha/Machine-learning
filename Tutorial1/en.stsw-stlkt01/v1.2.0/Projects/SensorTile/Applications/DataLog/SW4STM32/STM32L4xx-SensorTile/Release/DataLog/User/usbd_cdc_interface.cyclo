@@ -1,0 +1,8 @@
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:107:15:CDC_Itf_Init	2
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:143:15:CDC_Itf_DeInit	1
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:157:15:CDC_Itf_Control	3
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:223:9:CDC_Fill_Buffer	2
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:240:6:HAL_TIM_PeriodElapsedCallback	5
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:280:15:CDC_Itf_Receive	1
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:314:13:TIM_Config	2
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/usbd_cdc_interface.c:342:13:Error_Handler	1

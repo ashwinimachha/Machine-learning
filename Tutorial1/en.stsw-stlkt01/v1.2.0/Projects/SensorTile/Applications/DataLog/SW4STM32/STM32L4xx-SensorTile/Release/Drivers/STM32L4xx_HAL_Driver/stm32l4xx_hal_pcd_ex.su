@@ -1,0 +1,9 @@
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:93:19:HAL_PCDEx_SetTxFiFo	24	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:135:19:HAL_PCDEx_SetRxFiFo	16	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:147:19:HAL_PCDEx_ActivateLPM	24	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:164:19:HAL_PCDEx_DeActivateLPM	24	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:180:6:HAL_PCDEx_BCD_VBUSDetect	24	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:251:19:HAL_PCDEx_ActivateBCD	24	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:266:19:HAL_PCDEx_DeActivateBCD	24	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:472:13:HAL_PCDEx_LPM_Callback	16	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c:489:13:HAL_PCDEx_BCD_Callback	16	static

@@ -1,0 +1,5 @@
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:73:9:SD_initialize	16	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:91:9:SD_status	16	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:111:9:SD_read	48	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:139:9:SD_write	48	static
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:165:9:SD_ioctl	104	static

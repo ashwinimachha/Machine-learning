@@ -1,0 +1,12 @@
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:140:9:BSP_SD_Init	3
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:173:9:BSP_SD_GetCardInfo	1
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:196:9:BSP_SD_ReadBlocks	8
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:275:9:BSP_SD_WriteBlocks	7
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:353:9:SD_GetCSDRegister	5
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:471:16:SD_GetCIDRegister	5
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:564:16:SD_SendCmd_wResp	1
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:577:16:SD_SendCmd	2
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:601:16:SD_GetDataResponse	8
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:648:9:BSP_SD_GetStatus	1
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:658:16:SD_GoIdleState	11
+C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_sd.c:726:9:BSP_SD_Erase	5
