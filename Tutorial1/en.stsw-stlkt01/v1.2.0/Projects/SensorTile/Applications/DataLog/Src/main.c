@@ -53,9 +53,9 @@
 /* Private typedef -----------------------------------------------------------*/
 
 /* Private define ------------------------------------------------------------*/
-#define LEARNING_ITERATIONS 25
+#define LEARNING_ITERATIONS 20
 /* Data acquisition period [ms] */
-#define DATA_PERIOD_MS (200)
+#define DATA_PERIOD_MS (100)
 //#define NOT_DEBUGGING
 
 /* Private macro -------------------------------------------------------------*/
@@ -93,18 +93,21 @@ static void RTC_TimeStampConfig( void );
 static void initializeAllSensors( void );
 
 
-float x,y,z;
+float x,y,z,r,theta,phi;
 /* Private functions ---------------------------------------------------------*/
 void fill_buffer(float input_buffer[])
 {
 	/* USER BEGIN */
 
 	// Call the read function
-	Accelero_Sensor_Handler( LSM6DSM_X_0_handle, &x, &y,&z);
+	Accelero_Sensor_Handler( LSM6DSM_X_0_handle, &x, &y,&z,&r,&theta,&phi);
 	//Fill Input Buffer
 	input_user_buffer[0]=x;
 	input_user_buffer[1]=y;
 	input_user_buffer[2]=z;
+	input_user_buffer[3]=r;
+	input_user_buffer[4] = theta;
+	input_user_buffer[5] = phi;
 	//Delay
 	HAL_Delay(500);
 	/* USER END */
@@ -193,7 +196,7 @@ int main( void )
 
   		/* This happens if the library works into a not supported board. */
 
-//  		printf("Board Not Supported\n");
+  		printf("Board Not Supported\n");
 
   		sprintf( dataOut, "Board Not Supported\n");
   		CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
@@ -208,7 +211,10 @@ int main( void )
   	{
   		fill_buffer(input_user_buffer);
   		neai_anomalydetection_learn(input_user_buffer);
-  		sprintf( dataOut, "\n\rACC_X: %d, ACC_Y: %d, ACC_Z: %d",(int)input_user_buffer[0],(int)input_user_buffer[1], (int)input_user_buffer[2]);
+  		sprintf( dataOut, "\n\rA_X= %d A_Y = %d A_Z = %d r = %d theta = %d phi = %d ",
+  				(int)input_user_buffer[0],(int)input_user_buffer[1],
+  				(int)input_user_buffer[2],(int)input_user_buffer[3],
+				(int)input_user_buffer[4], (int)input_user_buffer[5]);
   		CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
   		HAL_Delay(100);
   	}
@@ -220,7 +226,7 @@ int main( void )
   	/*************************************************************/
   while (1)
   {
-	  msTick =HAL_GetTick();
+//	  msTick =HAL_GetTick();
 //	  if(msTick % DATA_PERIOD_MS == 0 && msTickPrev != msTick)
 //	  {
 //		  msTickPrev = msTick;
@@ -229,7 +235,7 @@ int main( void )
 //			  BSP_LED_On(LED1);
 //
 //		  }
-//		  Accelero_Sensor_Handler( LSM6DSM_X_0_handle, &x, &y,&z);
+//		  Accelero_Sensor_Handler( LSM6DSM_X_0_handle, &x, &y,&z,&r,&theta, &phi);
 //	  }
 	  fill_buffer(input_user_buffer);
 	  neai_anomalydetection_detect(input_user_buffer, &similarity);
@@ -243,8 +249,8 @@ int main( void )
 //		  printf("Normal\n");
 		  sprintf( dataOut, "Normal\n\r");
 		  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-		  	     	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
-		  	     	HAL_GPIO_WritePin( GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
+//		  	     	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+//		  	     	HAL_GPIO_WritePin( GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
 	  }
 	  else
 	  {

@@ -166,7 +166,7 @@ void RTC_Handler( RTC_HandleTypeDef *RtcHandle )
 * @param  handle the device handle
 * @retval None
 */
-void Accelero_Sensor_Handler(void *handle, float *xp, float *yp,float *zp)
+void Accelero_Sensor_Handler(void *handle, float *xp, float *yp,float *zp, float *rp,float *thetap, float *phip)
 {
 
   /*uint8_t who_am_i;
@@ -210,9 +210,15 @@ void Accelero_Sensor_Handler(void *handle, float *xp, float *yp,float *zp)
     	x = (float)acceleration.AXIS_X;
     	y = (float)acceleration.AXIS_Y;
     	z = (float)acceleration.AXIS_Z;
-//    	r= sqrt(x*x + y*y +z*z);
-//    	theta = acos(z/r)*RADIAN;
-//    	phi = atan2(y,x)*RADIAN;
+
+    	r = sqrt(x*x + y*y +z*z);
+    	theta = acos(z/r)*RADIAN;
+    	phi = atan2(y,x)*RADIAN;
+
+    	*rp = r;
+    	*thetap = theta;
+    	*phip = phi;
+
 //    	sprintf( dataOut, "\n\r %d, %d, %d,%d.%03d, %d.%03d, %d.%03d ",
 //    			(int)acceleration.AXIS_X,
 //				(int)acceleration.AXIS_Y,
