@@ -1,13 +1,13 @@
 Drivers/BSP/SensorTile/SensorTile_magneto.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_magneto.c \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_magneto.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_magneto.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_magneto.h \
  ../../../../../../../Drivers/BSP/Components/lsm303agr/LSM303AGR_MAG_driver_HL.h \
  ../../../../../../../Drivers/BSP/Components/Common/magnetometer.h \
  ../../../../../../../Drivers/BSP/Components/Common/sensor.h \
  ../../../../../../../Drivers/BSP/Components/Common/component.h \
  ../../../../../../../Drivers/BSP/Components/lsm303agr/LSM303AGR_MAG_driver.h \
  ../../../../../../../Drivers/BSP/Components/lsm303agr/LSM303AGR_Combo_driver_HL.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -49,14 +49,14 @@ Drivers/BSP/SensorTile/SensorTile_magneto.o: \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h \
  ../../../../../../../Drivers/BSP/Components/Common/accelerometer.h \
  ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_magneto.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_magneto.h:
 ../../../../../../../Drivers/BSP/Components/lsm303agr/LSM303AGR_MAG_driver_HL.h:
 ../../../../../../../Drivers/BSP/Components/Common/magnetometer.h:
 ../../../../../../../Drivers/BSP/Components/Common/sensor.h:
 ../../../../../../../Drivers/BSP/Components/Common/component.h:
 ../../../../../../../Drivers/BSP/Components/lsm303agr/LSM303AGR_MAG_driver.h:
 ../../../../../../../Drivers/BSP/Components/lsm303agr/LSM303AGR_Combo_driver_HL.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../../../Inc/stm32l4xx_hal_conf.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:

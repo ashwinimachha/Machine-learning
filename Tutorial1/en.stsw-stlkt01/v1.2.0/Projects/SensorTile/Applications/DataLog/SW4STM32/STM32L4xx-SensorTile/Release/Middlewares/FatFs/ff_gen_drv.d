@@ -1,9 +1,9 @@
 Middlewares/FatFs/ff_gen_drv.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/diskio.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/integer.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/diskio.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/integer.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff.h \
  ../../../Inc/ffconf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
@@ -50,10 +50,10 @@ Middlewares/FatFs/ff_gen_drv.o: \
  ../../../../../../../Drivers/BSP/Components/Common/sensor.h \
  ../../../../../../../Drivers/BSP/Components/Common/component.h \
  ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/diskio.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/integer.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/diskio.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/integer.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/ff.h:
 ../../../Inc/ffconf.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../../../Inc/stm32l4xx_hal_conf.h:

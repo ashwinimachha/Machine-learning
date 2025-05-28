@@ -1,6 +1,6 @@
 Drivers/BSP/SensorTile/SensorTile.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.c \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -44,7 +44,7 @@ Drivers/BSP/SensorTile/SensorTile.o: \
  ../../../../../../../Drivers/BSP/Components/Common/sensor.h \
  ../../../../../../../Drivers/BSP/Components/Common/component.h \
  ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../../../Inc/stm32l4xx_hal_conf.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:

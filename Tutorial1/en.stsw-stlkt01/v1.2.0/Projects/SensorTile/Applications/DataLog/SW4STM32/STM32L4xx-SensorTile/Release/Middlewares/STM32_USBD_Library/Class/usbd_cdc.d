@@ -1,5 +1,5 @@
 Middlewares/STM32_USBD_Library/Class/usbd_cdc.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c \
  ../../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
  ../../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \

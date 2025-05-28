@@ -1,5 +1,5 @@
 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \

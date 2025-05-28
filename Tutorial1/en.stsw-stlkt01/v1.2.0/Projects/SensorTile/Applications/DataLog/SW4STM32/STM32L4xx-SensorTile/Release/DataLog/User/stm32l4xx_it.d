@@ -1,5 +1,5 @@
 DataLog/User/stm32l4xx_it.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/stm32l4xx_it.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/stm32l4xx_it.c \
  ../../../Inc/stm32l4xx_it.h ../../../Inc/usbd_cdc_interface.h \
  ../../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
  ../../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \

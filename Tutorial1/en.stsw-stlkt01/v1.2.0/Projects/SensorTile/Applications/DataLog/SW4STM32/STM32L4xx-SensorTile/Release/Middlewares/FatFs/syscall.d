@@ -1,7 +1,7 @@
 Middlewares/FatFs/syscall.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/syscall.c \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../ff.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../integer.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/syscall.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../ff.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../integer.h \
  ../../../Inc/ffconf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
@@ -48,8 +48,8 @@ Middlewares/FatFs/syscall.o: \
  ../../../../../../../Drivers/BSP/Components/Common/sensor.h \
  ../../../../../../../Drivers/BSP/Components/Common/component.h \
  ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../ff.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../integer.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../ff.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/option/../integer.h:
 ../../../Inc/ffconf.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../../../Inc/stm32l4xx_hal_conf.h:

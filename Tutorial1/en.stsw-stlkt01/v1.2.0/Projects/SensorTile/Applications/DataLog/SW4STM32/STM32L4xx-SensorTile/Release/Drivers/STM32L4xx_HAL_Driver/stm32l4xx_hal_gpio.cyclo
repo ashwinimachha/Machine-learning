@@ -1,8 +1,8 @@
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:191:6:HAL_GPIO_Init	22
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:330:6:HAL_GPIO_DeInit	11
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:418:15:HAL_GPIO_ReadPin	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:452:6:HAL_GPIO_WritePin	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:474:6:HAL_GPIO_TogglePin	1
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:493:19:HAL_GPIO_LockPin	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:527:6:HAL_GPIO_EXTI_IRQHandler	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:542:13:HAL_GPIO_EXTI_Callback	1
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:191:6:HAL_GPIO_Init	22
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:330:6:HAL_GPIO_DeInit	11
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:418:15:HAL_GPIO_ReadPin	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:452:6:HAL_GPIO_WritePin	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:474:6:HAL_GPIO_TogglePin	1
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:493:19:HAL_GPIO_LockPin	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:527:6:HAL_GPIO_EXTI_IRQHandler	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:542:13:HAL_GPIO_EXTI_Callback	1

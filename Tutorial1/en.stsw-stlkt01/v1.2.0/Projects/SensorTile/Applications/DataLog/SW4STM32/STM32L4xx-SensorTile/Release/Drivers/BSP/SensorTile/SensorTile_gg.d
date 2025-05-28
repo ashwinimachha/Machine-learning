@@ -1,7 +1,7 @@
 Drivers/BSP/SensorTile/SensorTile_gg.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_gg.c \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_gg.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_gg.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_gg.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -45,11 +45,11 @@ Drivers/BSP/SensorTile/SensorTile_gg.o: \
  ../../../../../../../Drivers/BSP/Components/Common/sensor.h \
  ../../../../../../../Drivers/BSP/Components/Common/component.h \
  ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/../Components/stc3115/STC3115_Driver.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/../Components/stc3115/STC3115_Driver.h \
  ../../../../../../../Drivers/BSP/Components/Common/GasGauge.h \
  ../../../../../../../Drivers/BSP/Components/stc3115/STC3115_Driver.h
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_gg.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_gg.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../../../Inc/stm32l4xx_hal_conf.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
@@ -93,6 +93,6 @@ C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile
 ../../../../../../../Drivers/BSP/Components/Common/sensor.h:
 ../../../../../../../Drivers/BSP/Components/Common/component.h:
 ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/../Components/stc3115/STC3115_Driver.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/../Components/stc3115/STC3115_Driver.h:
 ../../../../../../../Drivers/BSP/Components/Common/GasGauge.h:
 ../../../../../../../Drivers/BSP/Components/stc3115/STC3115_Driver.h:

@@ -210,17 +210,17 @@ void Accelero_Sensor_Handler(void *handle, float *xp, float *yp,float *zp)
     	x = (float)acceleration.AXIS_X;
     	y = (float)acceleration.AXIS_Y;
     	z = (float)acceleration.AXIS_Z;
-    	r= sqrt(x*x + y*y +z*z);
-    	theta = acos(z/r)*RADIAN;
-    	phi = atan2(y,x)*RADIAN;
-    	sprintf( dataOut, "\n\r %d, %d, %d,%d.%03d, %d.%03d, %d.%03d ",
-    			(int)acceleration.AXIS_X,
-				(int)acceleration.AXIS_Y,
-				(int)acceleration.AXIS_Z,
-    			(int)d1, (int)d2,
-				(int)d3, (int)d4,
-				(int)d5, (int)d6 );
-    	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+//    	r= sqrt(x*x + y*y +z*z);
+//    	theta = acos(z/r)*RADIAN;
+//    	phi = atan2(y,x)*RADIAN;
+//    	sprintf( dataOut, "\n\r %d, %d, %d,%d.%03d, %d.%03d, %d.%03d ",
+//    			(int)acceleration.AXIS_X,
+//				(int)acceleration.AXIS_Y,
+//				(int)acceleration.AXIS_Z,
+//    			(int)d1, (int)d2,
+//				(int)d3, (int)d4,
+//				(int)d5, (int)d6 );
+//    	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
 
 //    	sprintf( dataOut, "\n\rA_X: %d,A_Y: %d,A_Z: %d, |A|=%d.%03d", (int)acceleration.AXIS_X, (int)acceleration.AXIS_Y, (int)acceleration.AXIS_Z,(int)d1, (int)d2 );
 //    	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));

@@ -1,6 +1,6 @@
 Drivers/BSP/SensorTile/SensorTile_temperature.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_temperature.c \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_temperature.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_temperature.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_temperature.h \
  ../../../../../../../Drivers/BSP/Components/lps22hb/LPS22HB_Driver_HL.h \
  ../../../../../../../Drivers/BSP/Components/Common/pressure.h \
  ../../../../../../../Drivers/BSP/Components/Common/sensor.h \
@@ -10,7 +10,7 @@ Drivers/BSP/SensorTile/SensorTile_temperature.o: \
  ../../../../../../../Drivers/BSP/Components/hts221/HTS221_Driver_HL.h \
  ../../../../../../../Drivers/BSP/Components/Common/humidity.h \
  ../../../../../../../Drivers/BSP/Components/hts221/HTS221_Driver.h \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -52,7 +52,7 @@ Drivers/BSP/SensorTile/SensorTile_temperature.o: \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pcd_ex.h \
  ../../../../../../../Drivers/BSP/Components/Common/accelerometer.h \
  ../../../../../../../Drivers/BSP/Components/Common/gyroscope.h
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_temperature.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile_temperature.h:
 ../../../../../../../Drivers/BSP/Components/lps22hb/LPS22HB_Driver_HL.h:
 ../../../../../../../Drivers/BSP/Components/Common/pressure.h:
 ../../../../../../../Drivers/BSP/Components/Common/sensor.h:
@@ -62,7 +62,7 @@ C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile
 ../../../../../../../Drivers/BSP/Components/hts221/HTS221_Driver_HL.h:
 ../../../../../../../Drivers/BSP/Components/Common/humidity.h:
 ../../../../../../../Drivers/BSP/Components/hts221/HTS221_Driver.h:
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Drivers/BSP/SensorTile/SensorTile.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../../../Inc/stm32l4xx_hal_conf.h:
 ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:

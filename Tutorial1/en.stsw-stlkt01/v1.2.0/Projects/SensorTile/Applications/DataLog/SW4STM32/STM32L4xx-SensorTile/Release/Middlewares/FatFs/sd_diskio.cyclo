@@ -1,5 +1,5 @@
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:73:9:SD_initialize	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:91:9:SD_status	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:111:9:SD_read	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:139:9:SD_write	2
-C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:165:9:SD_ioctl	6
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:73:9:SD_initialize	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:91:9:SD_status	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:111:9:SD_read	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:139:9:SD_write	2
+D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c:165:9:SD_ioctl	6

@@ -1,5 +1,5 @@
 Middlewares/FatFs/sd_diskio.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c \
  ../../../../../../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
  ../../../../../../../Middlewares/Third_Party/FatFs/src/diskio.h \
  ../../../../../../../Middlewares/Third_Party/FatFs/src/integer.h \

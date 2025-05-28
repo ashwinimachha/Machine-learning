@@ -183,79 +183,79 @@ int main( void )
 
   /******************AI Part**********************/
 
-//  	enum neai_state error_code = neai_anomalydetection_init();
-//
-//  	uint8_t similarity = 0;
-//
-//  	if (error_code != NEAI_OK)
-//
-//  	{
-//
-//  		/* This happens if the library works into a not supported board. */
-//
-////  		printf("Board Not Supported\n");
-//
-//  		sprintf( dataOut, "Board Not Supported\n");
-//  		CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-//
-//  	}
-//
-////  	printf("Learning Started\n");
-//  	sprintf( dataOut, "Learning Started\n\r");
-//  	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-//
-//  	for (uint16_t iteration = 0 ; iteration < LEARNING_ITERATIONS ; iteration++)
-//  	{
-//  		fill_buffer(input_user_buffer);
-//  		neai_anomalydetection_learn(input_user_buffer);
-//  		sprintf( dataOut, "\n\rACC_X: %d, ACC_Y: %d, ACC_Z: %d",(int)input_user_buffer[0],(int)input_user_buffer[1], (int)input_user_buffer[2]);
-//  		CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-//  		HAL_Delay(100);
-//  	}
-////  	printf("Learning Finished\n");
-//  	sprintf( dataOut, "\n\rLearning Finished\n");
-//  	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-//
-//  	HAL_Delay(2000);
+  	enum neai_state error_code = neai_anomalydetection_init();
+
+  	uint8_t similarity = 0;
+
+  	if (error_code != NEAI_OK)
+
+  	{
+
+  		/* This happens if the library works into a not supported board. */
+
+//  		printf("Board Not Supported\n");
+
+  		sprintf( dataOut, "Board Not Supported\n");
+  		CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+
+  	}
+
+//  	printf("Learning Started\n");
+  	sprintf( dataOut, "Learning Started\n\r");
+  	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+
+  	for (uint16_t iteration = 0 ; iteration < LEARNING_ITERATIONS ; iteration++)
+  	{
+  		fill_buffer(input_user_buffer);
+  		neai_anomalydetection_learn(input_user_buffer);
+  		sprintf( dataOut, "\n\rACC_X: %d, ACC_Y: %d, ACC_Z: %d",(int)input_user_buffer[0],(int)input_user_buffer[1], (int)input_user_buffer[2]);
+  		CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+  		HAL_Delay(100);
+  	}
+//  	printf("Learning Finished\n");
+  	sprintf( dataOut, "\n\rLearning Finished\n");
+  	CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+
+  	HAL_Delay(2000);
   	/*************************************************************/
   while (1)
   {
 	  msTick =HAL_GetTick();
-	  if(msTick % DATA_PERIOD_MS == 0 && msTickPrev != msTick)
-	  {
-		  msTickPrev = msTick;
-		  if(SendOverUSB)
-		  {
-			  BSP_LED_On(LED1);
+//	  if(msTick % DATA_PERIOD_MS == 0 && msTickPrev != msTick)
+//	  {
+//		  msTickPrev = msTick;
+//		  if(SendOverUSB)
+//		  {
+//			  BSP_LED_On(LED1);
+//
+//		  }
+//		  Accelero_Sensor_Handler( LSM6DSM_X_0_handle, &x, &y,&z);
+//	  }
+	  fill_buffer(input_user_buffer);
+	  neai_anomalydetection_detect(input_user_buffer, &similarity);
 
-		  }
-		  Accelero_Sensor_Handler( LSM6DSM_X_0_handle, &x, &y,&z);
+//	  printf("similarity=%d\n",similarity);
+	  sprintf( dataOut, "similarity=%d\n\r", similarity);
+	  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+
+	  if(similarity>=90)
+	  {
+//		  printf("Normal\n");
+		  sprintf( dataOut, "Normal\n\r");
+		  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+		  	     	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+		  	     	HAL_GPIO_WritePin( GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
 	  }
-//	  fill_buffer(input_user_buffer);
-//	  neai_anomalydetection_detect(input_user_buffer, &similarity);
-//
-////	  printf("similarity=%d\n",similarity);
-//	  sprintf( dataOut, "similarity=%d\n\r", similarity);
-//	  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-//
-//	  if(similarity>=90)
-//	  {
-////		  printf("Normal\n");
-//		  sprintf( dataOut, "Normal\n\r");
-//		  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-		  //	     	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
-		  //	     	HAL_GPIO_WritePin( GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
-//	  }
-//	  else
-//	  {
-////		  printf("Anamoly\n");
-//		  sprintf( dataOut, "Anamoly\n\r");
-//		  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
-//
-//		  //	     	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
-//		  //	     	HAL_GPIO_WritePin( GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
-//	  }
-//    /* Get sysTick value and check if it's time to execute the task */
+	  else
+	  {
+//		  printf("Anamoly\n");
+		  sprintf( dataOut, "Anamoly\n\r");
+		  CDC_Fill_Buffer(( uint8_t * )dataOut, strlen( dataOut ));
+
+		  //	     	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
+		  //	     	HAL_GPIO_WritePin( GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
+	  }
+    /* Get sysTick value and check if it's time to execute the task */
 //    msTick = HAL_GetTick();
 //    if(msTick % DATA_PERIOD_MS == 0 && msTickPrev != msTick)
 //    {

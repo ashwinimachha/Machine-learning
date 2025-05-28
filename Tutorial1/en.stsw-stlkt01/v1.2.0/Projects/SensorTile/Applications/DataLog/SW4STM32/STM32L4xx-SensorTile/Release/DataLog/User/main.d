@@ -1,5 +1,5 @@
 DataLog/User/main.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/main.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/main.c \
  ../../../Inc/main.h ../../../Inc/cube_hal.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../../../Inc/stm32l4xx_hal_conf.h \

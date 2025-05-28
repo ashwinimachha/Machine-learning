@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32l4xx.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/system_stm32l4xx.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Projects/SensorTile/Applications/DataLog/Src/system_stm32l4xx.c \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h \
  ../../../../../../../Drivers/CMSIS/Include/core_cm4.h \

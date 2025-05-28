@@ -1,5 +1,5 @@
 Middlewares/STM32_USBD_Library/Core/usbd_core.o: \
- C:/Users/ADMIN/Documents/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
+ D:/Git/Machine-learning/Tutorial1/en.stsw-stlkt01/v1.2.0/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
  ../../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../../../Inc/usbd_conf.h \
  ../../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
